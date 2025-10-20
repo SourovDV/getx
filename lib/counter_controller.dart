@@ -1,0 +1,21 @@
+
+import 'package:get/get.dart';
+
+class CounterController extends GetxController{
+  var count1 = 0.obs;
+  var count2 = 0.obs;
+  var count3=0.obs;
+
+  void increment1(){
+    count1++;
+
+  }
+  void increment2(){
+    count2++;
+
+  }
+  void increment3(){
+    count3++;
+
+  }
+}
